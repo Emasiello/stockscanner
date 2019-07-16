@@ -308,7 +308,7 @@
 #divApplab.appModern #imageGoat {
   height: 110px;
   width: 110px;
-  left: 40px;
+  left: 25%;
   top: 150px;
 }
 
@@ -324,24 +324,24 @@
 }
 
 #divApplab.appModern #text_inputCode {
-  width: 270px;
+  width: 50%;
   height: 35px;
-  left: 25px;
+  left: 25%;
   top: 45px;
   text-align: center;
 }
 
 #divApplab.appModern #imageStock {
   height: 75px;
-  left: 190px;
+  left: 75%;
   top: 165px;
   width: 75px;
 }
 
 #divApplab.appModern #labelValue {
-  width: 120px;
+  width: 50%;
   height: 40px;
-  left: -8.32667e-17px;
+  left: 25%;
   top: 115px;
   font-size: 20px;
   text-align: center;
