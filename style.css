@@ -312,6 +312,17 @@
   top: 350px;
 }
 
+#divApplab.appModern #imageCamera {
+  height: 180px;
+  width: 270px;
+  left: 25px;
+  top: 25px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+}
+
 #divApplab.appModern #text_inputCode {
   width: 270px;
   height: 35px;
