@@ -3,6 +3,12 @@ var url;
 
 // When text is detected by camera change text_inputCode to match
 
+<div id="container">
+	<video autoplay="true" id="videoElement">
+	
+	</video>
+</div>
+
 onEvent("imageGoat", "click", function() {
   style = getText("text_inputCode");
   url = "https://www.goat.com/search?query="+style;
