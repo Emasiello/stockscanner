@@ -6,11 +6,11 @@ var url;
 onEvent("imageGoat", "click", function() {
   style = getText("text_inputCode");
   url = "https://www.goat.com/search?query="+style;
-  window.location.replace(url);
+  window.location.href = url;
 });
 
 onEvent("imageStockX", "click", function() {
   style = getText("text_inputCode");
   url = "https://stockx.com/search/sneakers?s="+style;
-  window.location.replace(url);
+  window.location.href = url;
 });
