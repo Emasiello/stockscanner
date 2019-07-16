@@ -312,19 +312,6 @@
   top: 350px;
 }
 
-#container {
-	margin: 0px auto;
-	width: 500px;
-	height: 375px;
-	border: 10px #333 solid;
-}
-
-#videoElement {
-	width: 500px;
-	height: 375px;
-	background-color: #666;
-}
-
 #divApplab.appModern #text_inputCode {
   width: 270px;
   height: 35px;
