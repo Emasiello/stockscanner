@@ -9,7 +9,7 @@ onEvent("imageGoat", "click", function() {
   window.location.href = url;
 });
 
-onEvent("imageStockX", "click", function() {
+onEvent("imageStock", "click", function() {
   style = getText("text_inputCode");
   url = "https://stockx.com/search/sneakers?s="+style;
   window.location.href = url;
