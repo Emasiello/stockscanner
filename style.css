@@ -65,11 +65,11 @@
   border-right-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 0px;
-  border-top-color: rgb(153, 153, 153);
-  border-right-color: rgb(153, 153, 153);
-  border-bottom-color: rgb(153, 153, 153);
-  border-left-color: rgb(153, 153, 153);
-  color: rgb(51, 51, 51);
+  border-top-color: rgb(255, 255, 255);
+  border-right-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   padding-top: 2px;
@@ -201,10 +201,10 @@
   border-right-width: 1px;
   border-bottom-width: 1px;
   border-left-width: 1px;
-  border-top-color: rgb(153, 153, 153);
-  border-right-color: rgb(153, 153, 153);
-  border-bottom-color: rgb(153, 153, 153);
-  border-left-color: rgb(153, 153, 153);
+  border-top-color: rgb(255, 255, 255);
+  border-right-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, );
   color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -326,7 +326,7 @@
 #divApplab.appModern #text_inputCode {
   width: 50%;
   height: 35px;
-  left: 50%;
+  left: 25%;
   top: 45px;
   text-align: center;
 }
