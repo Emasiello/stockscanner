@@ -326,7 +326,7 @@
 #divApplab.appModern #text_inputCode {
   width: 50%;
   height: 35px;
-  left: 25%;
+  left: 50%;
   top: 45px;
   text-align: center;
 }
@@ -341,7 +341,7 @@
 #divApplab.appModern #labelValue {
   width: 50%;
   height: 40px;
-  left: 25%;
+  left: 10%;
   top: 115px;
   font-size: 20px;
   text-align: center;
