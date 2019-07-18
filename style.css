@@ -333,8 +333,9 @@
 #divApplab.appModern #imageStock {
   height: 75px;
   width: 75px;
-  left: 65%;
+  left: 75%;
   top: 165px;
+  margin-left: -37.5px;
 }
 
 #videoElement {
