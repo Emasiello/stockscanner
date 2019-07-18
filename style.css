@@ -335,3 +335,10 @@
   left: 65%;
   top: 165px;
 }
+
+#videoElement {
+  height: 75px;
+  width: 75px;
+  left: 65%;
+  top: 165px;
+}
