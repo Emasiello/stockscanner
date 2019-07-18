@@ -266,7 +266,7 @@
 #divApplab.appModern div.screen.appModernDesign,
 #divApplab.appModern div.screen.appModernDesign:hover {
   display: block;
-  height: 450px;
+  height: 100%;
   width: 100%;
   left: 0px;
   top: 0px;
