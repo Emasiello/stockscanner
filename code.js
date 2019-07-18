@@ -6,13 +6,25 @@ var url;
 onEvent("imageGoat", "click", function() {
   style = getText("text_inputCode");
   url = "https://www.goat.com/search?query="+style;
-  // open broswer on page url
+  window.location.href = url;
 });
 
 onEvent("imageStockX", "click", function() {
   style = getText("text_inputCode");
   url = "https://stockx.com/search/sneakers?s="+style;
-  // open broswer on page url
+  window.location.href = url;
+});
+
+onEvent("imageGoat", "tap", function() {
+  style = getText("text_inputCode");
+  url = "https://www.goat.com/search?query="+style;
+  window.location.href = url;
+});
+
+onEvent("imageStockX", "tap", function() {
+  style = getText("text_inputCode");
+  url = "https://stockx.com/search/sneakers?s="+style;
+  window.location.href = url;
 });
 
 var video = document.querySelector("#videoElement");
