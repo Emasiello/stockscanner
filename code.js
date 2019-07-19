@@ -1,7 +1,5 @@
 var style;
 var url;
-var canvas = document.getElementById('canvas');
-var context = canvas.getContext('2d');
 
 // When text is detected by camera change text_inputCode to match
 
@@ -40,11 +38,3 @@ if (navigator.mediaDevices.getUserMedia) {
       console.log("Something went wrong!");
     });
 }
-
-document.getElementById("take").addEventListener("click", function() {
-	context.drawImage(video, 0, 0, 640, 480);
-});
-
-document.getElementById("take").addEventListener("tap", function() {
-	context.drawImage(video, 0, 0, 640, 480);
-});
