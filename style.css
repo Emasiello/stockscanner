@@ -349,13 +349,17 @@
 }
 
 #take {
-  left: 65%;
-  top: 165px;
-  margin: 0 auto;
+  height: 75px;
+  width: 165px;
+  left: 50%;
+  top: 75px;
+  margin-left: -82.5px;
 }
 
 #flip {
-  left: 65%;
-  top: 180px;
-  margin: 0 auto;
+  height: 75px;
+  width: 165px;
+  left: 75%;
+  top: 165px;
+  margin-left: -82.5px;
 }
