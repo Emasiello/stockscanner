@@ -27,6 +27,10 @@ onEvent("imageStock", "tap", function() {
   window.location.href = url;
 });
 
+onEvent("take", "click", function() {
+  draw( video, thecanvas, thumbnail_img)
+});
+
 var video = document.querySelector("#videoElement");
 
 if (navigator.mediaDevices.getUserMedia) {
@@ -38,3 +42,17 @@ if (navigator.mediaDevices.getUserMedia) {
       console.log("Something went wrong!");
     });
 }
+
+function draw( video, thecanvas, img ){
+ 
+		// get the canvas context for drawing
+		var context = thecanvas.getContext('2d');
+ 
+		// draw the video contents into the canvas x, y, width, height
+    context.drawImage( video, 0, 0, thecanvas.width, thecanvas.height);
+ 
+		// get the image data from the canvas object
+    var dataURL = thecanvas.toDataURL();
+ 
+		// set the source of the img tag
+		img.setAttribute('src', dataURL);
