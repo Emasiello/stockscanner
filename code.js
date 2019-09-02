@@ -26,7 +26,3 @@ onEvent("imageStock", "tap", function() {
   url = "https://stockx.com/search/sneakers?s="+style;
   window.location.href = url;
 });
-
-onEvent("take", "click", function() {
-  draw( video, thecanvas, thumbnail_img)
-});
